@@ -183,7 +183,7 @@ $$H(0.5)- \left(\frac{4}{10}0.81 + \frac{6}{10}0.92\right) = 0.12$$
 -   Finally, $p_1$ of _root node_ as $p_1^{root}$.
 -   And, our formula will be:
 
-$$\text{Information Gain } = H(p_1^{root})\left(w^{left}p_1^{left} + w^{right}p_1^{right}\right)$$
+$$\text{Information Gain } = H(p_1^{root})\left(w^{left}H(p_1^{left}) + w^{right}H(p_1^{right})\right)$$
 
 > So, _Information gain_ is then defined as the _entropy_ of $p_1^{root}$, so what's the _entropy_ at the root node, minus that _weighted entropy_ calculation that we had on the previous slide, minus $w^{left}$ those were 5/10 in the example, times the _entropy_ applied to $p_1^{left}$, that's _entropy_ on the left sub-branch, plus $w^{right}$ the fraction of examples that went to the right branch, times _entropy_ of $p_1^{right}$. ~ _Andrew Ng_
 
