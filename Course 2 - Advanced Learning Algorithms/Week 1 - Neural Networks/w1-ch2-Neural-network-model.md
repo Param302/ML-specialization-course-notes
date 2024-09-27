@@ -95,7 +95,7 @@ So, for _Demand prediction_ example, with the input features $\vec{x} = \begin{b
 |                                 $j$                                  | $j^{th}$ unit ($j^{th}$ neuron) of a single layer                                                                                                                              |
 |                                 $l$                                  | $l^{th}$ layer of a **neural network**                                                                                                                                         |
 |                         $\vec{x} = a^{[0]}$                          | input vector $\vec{x}$ is same as $a^{[0]}$                                                                                                                                    |
-| $a^{[l]}_j = g(\vec{w}_j^{[l]} \cdot \vec{a}_j^{[l-1]} + b_j^{[l]})$ | $g$ is the activation function <br/> $a^{[l]}_j$ is the $j^{th}$ activation value of $l^{th}$ layer <br/> $\vec{a}^{[l-1]}_j$ is the activation output of previous $l-1$ layer |
+| $a^{[l]}_j = g(\vec{w}_j^{[l]} \cdot \vec{a}^{[l-1]} + b_j^{[l]})$ | $g$ is the activation function <br/> $a^{[l]}$ is the $j^{th}$ activation value of $l^{th}$ layer <br/> $\vec{a}^{[l-1]}_j$ is the activation output of previous $l-1$ layer |
 
 ---
 
